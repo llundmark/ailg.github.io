@@ -90,7 +90,7 @@ const navSubmenusById = {
   'about-the-guide': aboutTheGuideSubmenu,
 }
 
-function LandingPage({ onNavigateToSection }) {
+function LandingPage() {
   return (
     <main className="hero-content">
       <img
@@ -103,7 +103,13 @@ function LandingPage({ onNavigateToSection }) {
         A Guide for Designers and Design-Adjacent Professionals interested in
         using AI technology responsibly
       </p>
-      <button className="start-button" onClick={() => onNavigateToSection('ai-basics')}>
+      <button className="start-button" onClick={() => navigate('/what-is-ai')}
+            onKeyDown={(event) => {
+              if (event.key === 'Enter' || event.key === ' ') {
+                event.preventDefault()
+                navigate('/what-is-ai')
+              }
+            }}>
         Let&apos;s Start with the Basics!
       </button>
     </main>

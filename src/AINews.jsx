@@ -3,10 +3,10 @@ import './news.css'
 import rightChevron from './assets/chevron-right.svg'
 import leftChevron from './assets/chevron-left.svg'
 import { useNavigate } from 'react-router-dom'
-import article1 from './assets/article1.png'
-import article2 from './assets/article2.png'
-import article3 from './assets/article3.png'
-import article4 from './assets/article4.png'
+import article1 from './assets/article1.jpg'
+import article2 from './assets/article2.jpg'
+import article3 from './assets/article3.jpg'
+import article4 from './assets/article4.jpg'
 
 function AINews() {
   const navigate = useNavigate()

@@ -25,10 +25,11 @@ p {
 }
 
 p {
-  font-size: 28px;
+  font-size: 24px;
   font-weight: 400;
   line-height: 34px;
   color: #404040;
+  margin-bottom: 30px;
 }
 
 h1{
@@ -50,6 +51,16 @@ h3{
   font-weight: 500;
   line-height: 1;
   color: #333;
+}
+
+h4 {
+  font-size: 30px;
+  font-weight: 500;
+  color: #404040;
+}
+
+a {
+  color: #006fb2;
 }
 
 .pageNav {
@@ -88,4 +99,67 @@ h3{
   background: #f3f8fa;
   font-family: 'Work Sans', sans-serif;
   max-width: 1120px;
+}
+
+.useful-link{
+  display: flex;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+.useful-header{
+  color: #222;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.useful-text{
+  margin-left: 10px;
+}
+
+.citation{
+  display: flex;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+.citation-num{
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1;
+  color: #222;
+}
+
+.citation-header{
+  color: #222;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.wia-nav-prev {
+  /* left: 728px; */
+}
+
+.wia-nav-next {
+  /* left: 1138px; */
+}
+
+.wia-nav {
+  cursor: pointer;
+  display: flex;
+  color: #006fb2;
+  max-width: 50%;
+}
+
+.wia-nav img{
+  max-width: 44px;
+  max-height: 44px;
+  color:#006fb2;
+}
+
+.wia-nav span{
+  font-size:30px;
+  font-weight: 700;
 }

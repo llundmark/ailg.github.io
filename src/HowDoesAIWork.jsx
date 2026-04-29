@@ -72,31 +72,31 @@ function HowDoesAIWork() {
             className="wia-nav wia-nav-prev"
             role="button"
             tabIndex={0}
-            onClick={() => navigate('/introduction')}
+            onClick={() => navigate('/what-is-ai')}
             onKeyDown={(event) => {
               if (event.key === 'Enter' || event.key === ' ') {
                 event.preventDefault()
-                navigate('/introduction')
+                navigate('/what-is-ai')
               }
             }}
           >
             <img src={leftChevron} alt="" aria-hidden="true" />
-            <span>Introduction</span>
+            <span>What is Artificial Intelligence (AI)?</span>
           </div>
         
           <div
             className="wia-nav wia-nav-next"
             role="button"
             tabIndex={0}
-            onClick={() => navigate('/how-does-ai-work')}
+            onClick={() => navigate('/why-would-we-want-to-use-ai')}
             onKeyDown={(event) => {
               if (event.key === 'Enter' || event.key === ' ') {
                 event.preventDefault()
-                navigate('/how-does-ai-work')
+                navigate('/why-would-we-want-to-use-ai')
               }
             }}
           >
-            <span>How Does AI Work?</span>
+            <span>Why would we want to use AI?</span>
             <img src={rightChevron} alt="" aria-hidden="true" />
           </div>
 

@@ -47,22 +47,6 @@ function WhyWouldWeUseAI() {
             className="wia-nav wia-nav-prev"
             role="button"
             tabIndex={0}
-            onClick={() => navigate('/introduction')}
-            onKeyDown={(event) => {
-              if (event.key === 'Enter' || event.key === ' ') {
-                event.preventDefault()
-                navigate('/introduction')
-              }
-            }}
-          >
-            <img src={leftChevron} alt="" aria-hidden="true" />
-            <span>Introduction</span>
-          </div>
-        
-          <div
-            className="wia-nav wia-nav-next"
-            role="button"
-            tabIndex={0}
             onClick={() => navigate('/how-does-ai-work')}
             onKeyDown={(event) => {
               if (event.key === 'Enter' || event.key === ' ') {
@@ -71,7 +55,23 @@ function WhyWouldWeUseAI() {
               }
             }}
           >
+            <img src={leftChevron} alt="" aria-hidden="true" />
             <span>How Does AI Work?</span>
+          </div>
+        
+          <div
+            className="wia-nav wia-nav-next"
+            role="button"
+            tabIndex={0}
+            onClick={() => navigate('/who-builds-ai')}
+            onKeyDown={(event) => {
+              if (event.key === 'Enter' || event.key === ' ') {
+                event.preventDefault()
+                navigate('/who-builds-ai')
+              }
+            }}
+          >
+            <span>Who Builds AI?</span>
             <img src={rightChevron} alt="" aria-hidden="true" />
           </div>
 

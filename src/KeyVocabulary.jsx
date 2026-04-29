@@ -57,31 +57,31 @@ function KeyVocabulary() {
             className="wia-nav wia-nav-prev"
             role="button"
             tabIndex={0}
-            onClick={() => navigate('/introduction')}
+            onClick={() => navigate('/who-builds-ai')}
             onKeyDown={(event) => {
               if (event.key === 'Enter' || event.key === ' ') {
                 event.preventDefault()
-                navigate('/introduction')
+                navigate('/who-builds-ai')
               }
             }}
           >
             <img src={leftChevron} alt="" aria-hidden="true" />
-            <span>Introduction</span>
+            <span>Who Builds AI?</span>
           </div>
         
           <div
             className="wia-nav wia-nav-next"
             role="button"
             tabIndex={0}
-            onClick={() => navigate('/how-does-ai-work')}
+            onClick={() => navigate('/how-is-ai-used')}
             onKeyDown={(event) => {
               if (event.key === 'Enter' || event.key === ' ') {
                 event.preventDefault()
-                navigate('/how-does-ai-work')
+                navigate('/how-is-ai-used')
               }
             }}
           >
-            <span>How Does AI Work?</span>
+            <span>How is AI Actually Used?</span>
             <img src={rightChevron} alt="" aria-hidden="true" />
           </div>
 

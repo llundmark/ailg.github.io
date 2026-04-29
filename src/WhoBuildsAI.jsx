@@ -45,31 +45,31 @@ function WhoBuildsAI() {
             className="wia-nav wia-nav-prev"
             role="button"
             tabIndex={0}
-            onClick={() => navigate('/introduction')}
+            onClick={() => navigate('/who-builds-ai')}
             onKeyDown={(event) => {
               if (event.key === 'Enter' || event.key === ' ') {
                 event.preventDefault()
-                navigate('/introduction')
+                navigate('/who-builds-ai')
               }
             }}
           >
             <img src={leftChevron} alt="" aria-hidden="true" />
-            <span>Introduction</span>
+            <span>Who Builds AI?</span>
           </div>
         
           <div
             className="wia-nav wia-nav-next"
             role="button"
             tabIndex={0}
-            onClick={() => navigate('/how-does-ai-work')}
+            onClick={() => navigate('/key-vocabulary')}
             onKeyDown={(event) => {
               if (event.key === 'Enter' || event.key === ' ') {
                 event.preventDefault()
-                navigate('/how-does-ai-work')
+                navigate('/key-vocabulary')
               }
             }}
           >
-            <span>How Does AI Work?</span>
+            <span>Key Vocabulary</span>
             <img src={rightChevron} alt="" aria-hidden="true" />
           </div>
 

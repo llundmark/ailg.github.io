@@ -14,13 +14,112 @@ function UsefulLinks() {
 
         <h2>Understanding AI</h2>
 
+        {/* <div className="useful-link">
+
+          <p className="useful-header">L1.)</p>
+
+          <div>
+          <p className="useful-header"><a href=""></a> - <strong></strong></p>
+          <p></p>
+          </div>
+        </div> */}
+          <div className="useful-link">
+          <p className="useful-header">L1.)</p>
+
+          <div className="useful-text">
+          <p className="useful-header"><a href="https://beinternetawesome.withgoogle.com/en_us">Be Internet Awesome</a> - <strong>Google's Guide to The Internet</strong></p>
+          <p>Google has a website dedicated to introducing children grades 2-8 to the internet and how to navigate it safely and responsibly. See especially their <a href="">AI literacy guide</a>.</p>
+          </div>
+        </div>
+
+        <div className="useful-link">
+
+          <p className="useful-header">L2.)</p>
+
+          <div>
+          <p className="useful-header"><a href="https://www.coveo.com/blog/generative-models/">Complete Guide to Five Generative AI Models</a> - <strong>Coveo</strong></p>
+          <p>A great article explaining the different types of AI Models in use today, how they learn and how they can be used. Written by Rebecca U. Shin.</p>
+          </div>
+          </div>
+
+          <div className="useful-link">
+
+          <p className="useful-header">L3.)</p>
+
+          <div>
+          <p className="useful-header"><a href="https://www.youtube.com/watch?v=NRmAXDWJVnU">Generative AI Explained in 5 Minutes</a> - <strong>Youtube video by SimpliLearn</strong></p>
+          <p>A quick video introduction to Generative AI.</p>
+          </div>
+          </div>
+
+          
+
+          <div className="useful-link">
+
+          <p className="useful-header">L4.)</p>
+
+          <div>
+          <p className="useful-header"><a href="https://www.youtube.com/watch?v=gsWCUDfQBvY">What are Generative AI Models?</a> - <strong>Youtube video by SimpliLearn</strong></p>
+          <p>A much more in-depth video with explanations for model architecture, training and limitations. About an hour long.</p>
+          </div>
+          </div>
+
+          <div className="useful-link">
+
+          <p className="useful-header">L5.)</p>
+
+          <div>
+          <p className="useful-header"><a href="https://www.pugetsystems.com/solutions/photo-editing-workstations/generative-ai/hardware-recommendations/#:~:text=Our%20top%20recommendations%20at%20this,adds%20a%20lot%20of%20cost.">Hardware Recommendations for Generative AI</a> - <strong>Puget Systems</strong></p>
+          <p>An article detailing recommended computer specifications for different uses of Generative AI.</p>
+          </div>
+          </div>
+
 
         <h2>AI in Business</h2>
 
+        <div className="useful-link">
+
+          <p className="useful-header">L6.)</p>
+
+          <div>
+          <p className="useful-header"><a href="https://iot-analytics.com/leading-generative-ai-companies/">IOT Analytics</a> - <strong>The leading generative AI companies</strong></p>
+          <p></p>
+          </div>
+        </div>
+
         <h2>Models & Other Resources</h2>
 
-        <h2>Tutorials</h2>
+        <div className="useful-link">
 
+          <p className="useful-header">L7.)</p>
+
+          <div>
+          <p className="useful-header"><a href="https://civitai.com/">Civitai</a></p>
+          <p>An online repository for open-source Generative AI Models. Most Models found here are designed for image or video generation.</p>
+          </div>
+        </div>
+
+        <h2>Tutorials</h2>
+        <div className="useful-link">
+
+          <p className="useful-header">L8.)</p>
+
+          <div>
+          <p className="useful-header"><a href="https://stable-diffusion-art.com/beginners-guide/">How to Use Stable Diffusion</a> - <strong>Stable Diffusion Art</strong></p>
+          <p>An in-depth tutorial for using Stable Diffusion AI Models.</p>
+          </div>
+          </div>
+
+          <div className="useful-link">
+
+          <p className="useful-header">L9.)</p>
+
+          <div>
+          <p className="useful-header"><a href="https://www.youtube.com/watch?v=fCUkvL0mbxI&t=359s">Training your own AI Model is not as hard as you (probably) think</a> - <strong>Youtube video by Builder.io</strong></p>
+          <p>A step-by-step example of how to train a custom AI Model.
+          An accompanying text tutorial is available here: <a href="https://www.builder.io/blog/train-ai">https://www.builder.io/blog/train-ai</a></p>
+          </div>
+        </div>
         
         <div className="pageNav">
           <div

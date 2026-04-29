@@ -56,21 +56,6 @@
   color: #222;
 }
 
-.wia-h2-kinds {
-  /* left: 635px;
-  top: 2119px; */
-}
-
-.wia-h2-visual {
-  /* left: 637px;
-  top: 3132px; */
-}
-
-.wia-h2-important {
-  /* left: 637px;
-  top: 4379px; */
-}
-
 .wia-p {
   /* position: absolute; */
   width: 1120px;
@@ -79,16 +64,6 @@
   font-weight: 400;
   line-height: 34px;
   color: #404040;
-}
-
-.wia-intro-label {
-  /* left: 637px;
-  top: 925px; */
-}
-
-.wia-quote {
-  /* left: 637px;
-  top: 970px; */
 }
 
 .wia-source {
@@ -190,31 +165,4 @@
 .wia-important-copy-2 a {
   color: #006fb2;
   text-decoration: underline;
-}
-
-.wia-important-copy-3 {
- /*  left: 639px;
-  top: 4852px; */
-}
-
-.wia-important-copy-4 {
- /*  left: 639px;
-  top: 5037px; */
-}
-
-.wia-important-copy-5 {
-  /* left: 639px;
-  top: 5166px; */
-}
-
-.wia-nav-prev {
-  /* left: 728px; */
-}
-
-.wia-nav-next {
-  /* left: 1138px; */
-}
-
-.wia-nav {
-  cursor: pointer;
 }
