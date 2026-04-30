@@ -91,6 +91,7 @@ const navSubmenusById = {
 }
 
 function LandingPage() {
+  const navigate = useNavigate()
   return (
     <main className="hero-content">
       <img
@@ -103,11 +104,11 @@ function LandingPage() {
         A Guide for Designers and Design-Adjacent Professionals interested in
         using AI technology responsibly
       </p>
-      <button className="start-button" onClick={() => navigate('/what-is-ai')}
+      <button className="start-button" onClick={() => navigate('/introduction')}
             onKeyDown={(event) => {
               if (event.key === 'Enter' || event.key === ' ') {
                 event.preventDefault()
-                navigate('/what-is-ai')
+                navigate('/introduction')
               }
             }}>
         Let&apos;s Start with the Basics!
@@ -186,7 +187,16 @@ function App() {
     <div className="landing-page">
       <aside className="sidebar" aria-label="Table of contents">
         <div className="sidebar-inner">
-          <img className="ailg-logo" src={ailgLogoImage} alt="AILG logo" />
+        <button className="start-button" onClick={() => navigate('/')}
+            onKeyDown={(event) => {
+              if (event.key === 'Enter' || event.key === ' ') {
+                event.preventDefault()
+                navigate('/')
+              }
+            }}>
+        <img className="ailg-logo" src={ailgLogoImage} alt="AILG logo" />
+      </button>
+          
           <h2 className="sidebar-title">Table of Contents</h2>
           <div className="accordion-list">
             {navItems.map((item) => {
