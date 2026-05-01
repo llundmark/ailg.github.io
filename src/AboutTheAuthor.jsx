@@ -7,7 +7,7 @@ function AboutTheAuthor() {
   const navigate = useNavigate()
 
   return (
-    <div>
+    <div className="page-canvas">
       <div className="page-content">
         <h1>About the Author</h1>
         <p>Art has been a lifelong passion of mine, whether it is music, drawing or writing. In high school I would typically take part in any creative  club or event available, like the Literary Magazine club or Drama class. I would put a lot of effort into artistic assignments, especially  creative writing projects. Although I was very introverted at that age I came to be known for my writing, even at times being volunteered by  teachers and other students to read my stories aloud for the class. I  felt really proud being recognized for something, even if I had only  seen it as a hobby. Ever since then I’ve wanted to find a professional  role in which I could apply my creativity.</p>

@@ -7,7 +7,7 @@ function KeyVocabulary() {
   const navigate = useNavigate()
 
   return (
-    <div>
+    <div className="page-canvas">
       <div className="page-content">
         <h1>Key Vocabulary</h1>
         <p>In learning about AI, there are a lot of frequently-used terms that aren't always explained adequately. There are plenty that have already been used in previous pages of this guide. This page is for collecting those terms and giving them a detailed explanation. 

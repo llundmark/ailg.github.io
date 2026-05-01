@@ -7,7 +7,7 @@ function AIPoweredSoftware() {
   const navigate = useNavigate()
 
   return (
-    <div>
+    <div className="page-canvas">
       <div className="page-content">
         <h1>AI-Powered Software</h1>
         <p>It's no exaggeration to say that there has been an explosion in the number of AI-powered software programs in the past few years. Without assistance, it can be challenging to sort through them when you're looking for something in particular. Here is a list of some AI tools and how they are typically used as of this writing. This is by no means an exhaustive list, but is meant to provide some good examples for anyone getting started.</p>

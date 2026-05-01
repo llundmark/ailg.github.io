@@ -12,7 +12,7 @@ function AINews() {
   const navigate = useNavigate()
 
   return (
-    <div>
+    <div className="page-canvas">
       <div className="page-content">
         <h1>AI in the News</h1>
         <p>Artificial Intelligence is a frequent topic of discussion in the U.S. and the world at large. Here you can find links to interesting News articles related to developments in AI and how they effect society.</p>
@@ -27,9 +27,9 @@ function AINews() {
           </div>
         </div> */}
 
-        
+        <div class="news-list">
         <div class="news-article">
-        <a href="https://www.msn.com/en-us/money/news/block-lays-off-nearly-half-its-staff-because-of-ai-its-ceo-said-most-companies-will-do-the-same/ar-AA1X9pwD?ocid=winp2fptaskbarhover&cvid=fc02d59495544a9ad2b8568dadf28fd6&ei=6">
+        <a class = "news-link" href="https://www.msn.com/en-us/money/news/block-lays-off-nearly-half-its-staff-because-of-ai-its-ceo-said-most-companies-will-do-the-same/ar-AA1X9pwD?ocid=winp2fptaskbarhover&cvid=fc02d59495544a9ad2b8568dadf28fd6&ei=6" target="_blank" rel="noopener noreferrer">
           <div class="news-grid">
             <img src={article1} class="news-thumb" alt="article thumbnail" />
             <div class="news-text">
@@ -38,6 +38,7 @@ function AINews() {
             </div>
           </div>
           </a>
+        </div>
         </div>
         
         

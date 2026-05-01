@@ -7,7 +7,7 @@ function WhoBuildsAI() {
   const navigate = useNavigate()
 
   return (
-    <div>
+    <div className="page-canvas">
       <div className="page-content">
         <h1>Who builds AI?</h1>
         <p>Right now, training an AI from scratch is something only companies with a lot of resources can accomplish. Here are some of the prominent companies in the field today. Bear in mind that new technologies are being developed and we may see a lot of changes both in AI and the business of it.

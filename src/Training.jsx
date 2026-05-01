@@ -7,7 +7,7 @@ function Training() {
   const navigate = useNavigate()
 
   return (
-    <div>
+    <div className="page-canvas">
       <div className="page-content">
         <h1>Training</h1>
         <p>As you might expect from computer software, how involved you are with the setup of your AI will depend on how complex your project is. For many writing and basic generation tasks, you can safely rely on the pre-trained Models provided by web-based applications. Generally, how much customization you can access from these will depend on how much money you can put into your subscription. You can train custom Models on cloud-based platforms with providers like Azure ML or AWS SageMaker. How cost-effective that will be compared to training with local hardware will depend on your project size and how often you will be training AI.</p>
@@ -16,13 +16,13 @@ function Training() {
 
         <h3>Choosing a Base Model</h3>
 
-        <p>While most Base Models are made to be general-purpose, they still may be better suited to particular tasks because of their architecture.[L2]</p>
+        <p>While most Base Models are made to be general-purpose, they still may be better suited to particular tasks because of their architecture.<sup>[L2]</sup></p>
 
         <p>Here are some examples of Base Models. There are several others, but these are Open Source and therefore free to access. Most of these can be found on internet repositories like Huggingface.</p>
 
         <p><a href="https://stable-diffusion-art.com/sdxl-model/">SDXL</a> - Stable Diffusion Model suited for image generation.</p>
         <p><a href="https://www.llama.com/">Meta Llama</a> - Auto-regressive language Model great as a chatbot or LLM.</p>
-        <p><a href="https://deepmind.google/models/gemma/">Google Gemma</a></p> - You can get multiple variations of Gemma for general and specific use cases.
+        <p><a href="https://deepmind.google/models/gemma/">Google Gemma</a> - You can get multiple variations of Gemma for general and specific use cases.</p>
 
         <h3>Choosing a Machine Learning Platform</h3>
 

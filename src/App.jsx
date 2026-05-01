@@ -19,9 +19,9 @@ import UsefulLinks from './UsefulLinks';
 import AboutTheAuthor from './AboutTheAuthor';
 import CitedResources from './CitedResources';
 import './App.css';
+import './index.css'
 import heroImage from './assets/landingPageHero.png'
-
-const ailgLogoImage = 'https://www.figma.com/api/mcp/asset/ae4b96b8-a69b-4229-899f-42e9d47ca3e8'
+import ailgLogoImage from './assets/ailg.png'
 
 const navItems = [
   { id: 'ai-basics', label: 'AI Basics' },
@@ -187,14 +187,14 @@ function App() {
     <div className="landing-page">
       <aside className="sidebar" aria-label="Table of contents">
         <div className="sidebar-inner">
-        <button className="start-button" onClick={() => navigate('/')}
+        <button className="ailg-logo" onClick={() => navigate('/')}
             onKeyDown={(event) => {
               if (event.key === 'Enter' || event.key === ' ') {
                 event.preventDefault()
                 navigate('/')
               }
             }}>
-        <img className="ailg-logo" src={ailgLogoImage} alt="AILG logo" />
+        <img src={ailgLogoImage} alt="AILG logo" />
       </button>
           
           <h2 className="sidebar-title">Table of Contents</h2>

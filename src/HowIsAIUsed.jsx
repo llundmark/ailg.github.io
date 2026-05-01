@@ -7,7 +7,7 @@ function HowIsAIUsed() {
   const navigate = useNavigate()
 
   return (
-    <div>
+    <div className="page-canvas">
       <div className="page-content">
         <h1>How Is AI Actually Used?</h1>
         <p>In order to have a complete understanding of AI, it's important to know how users interact with AI software. There are a number of different uses for AI and naturally many AI tools are built with particular tasks in mind. For instance, Midjourney is recommended for artistically styled images. <br/>

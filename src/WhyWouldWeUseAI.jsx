@@ -8,7 +8,7 @@ function WhyWouldWeUseAI() {
   const navigate = useNavigate()
 
   return (
-    <div>
+    <div className="page-canvas">
       <div className="page-content">
         <h1>Why would we want to use AI?</h1>
         <p>For anyone that keeps up with the news or what's trending on social media, this might seem like a silly question. Simply browsing the internet, it's easy to find some advertisement or article talking about what an amazing new technology it is or how it has 'great potential'. We hardly need more people trying to sell us on Artificial Intelligence and that isn't the purpose of this guide.<br/>

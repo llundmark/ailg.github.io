@@ -7,7 +7,7 @@ function EnvironmentalImpact() {
   const navigate = useNavigate()
 
   return (
-    <div>
+    <div className="page-canvas">
       <div className="page-content">
         <h1>Environmental Impact</h1>
         <h2>"Is it worth the price?"</h2>

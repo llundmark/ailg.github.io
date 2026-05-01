@@ -7,8 +7,8 @@ function CitedResources() {
   const navigate = useNavigate()
 
   return (
-    <main className="hero-content">
-      <div className="page-content page-placeholder">
+    <div className="page-canvas">
+      <div className="page-content">
 
         {/* <div className="citation">
 
@@ -25,7 +25,7 @@ function CitedResources() {
         <h1>Cited Resources</h1>
         <p>This page is a complete collection of the written works, websites and other materials that were used as sources of information for this project.</p>
 
-         <div className="citation">
+         <div className="citation" id="cr-1">
 
           <p className="citation-num">[1]</p>
 
@@ -37,7 +37,7 @@ function CitedResources() {
           </div>
         </div> 
 
-        <div className="citation">
+        <div className="citation" id="cr-2">
 
           <p className="citation-num">[2]</p>
 
@@ -48,7 +48,7 @@ function CitedResources() {
           </div>
         </div>
 
-        <div className="citation">
+        <div className="citation" id="cr-3">
 
           <p className="citation-num">[3]</p>
 
@@ -59,7 +59,7 @@ function CitedResources() {
           </div>
         </div>
 
-        <div className="citation">
+        <div className="citation" id="cr-4">
 
           <p className="citation-num">[4]</p>
 
@@ -70,7 +70,7 @@ function CitedResources() {
           </div>
         </div>
 
-        <div className="citation">
+        <div className="citation" id="cr-5">
 
           <p className="citation-num">[5]</p>
 
@@ -81,7 +81,7 @@ function CitedResources() {
           </div>
         </div>
 
-        <div className="citation">
+        <div className="citation" id="cr-6">
 
           <p className="citation-num">[6]</p>
 
@@ -92,7 +92,7 @@ function CitedResources() {
           </div>
         </div>
 
-        <div className="citation">
+        <div className="citation" id="cr-7">
 
           <p className="citation-num">[7]</p>
 
@@ -103,7 +103,7 @@ function CitedResources() {
           </div>
         </div>
 
-        <div className="citation">
+        <div className="citation" id="cr-8">
 
           <p className="citation-num">[8]</p>
 
@@ -114,7 +114,7 @@ function CitedResources() {
           </div>
         </div>
 
-        <div className="citation">
+        <div className="citation" id="cr-9">
 
           <p className="citation-num">[9]</p>
 
@@ -125,7 +125,7 @@ function CitedResources() {
           </div>
         </div>
 
-        <div className="citation">
+        <div className="citation" id="cr-10">
 
           <p className="citation-num">[10]</p>
 
@@ -136,7 +136,7 @@ function CitedResources() {
           </div>
         </div>
 
-        <div className="citation">
+        <div className="citation" id="cr-11">
 
           <p className="citation-num">[11]</p>
 
@@ -147,7 +147,7 @@ function CitedResources() {
           </div>
         </div>
 
-        <div className="citation">
+        <div className="citation" id="cr-12">
 
           <p className="citation-num">[12]</p>
 
@@ -158,7 +158,7 @@ function CitedResources() {
           </div>
         </div>
 
-        <div className="citation">
+        <div className="citation" id="cr-13">
 
           <p className="citation-num">[13]</p>
 
@@ -169,7 +169,7 @@ function CitedResources() {
           </div>
         </div>
 
-        <div className="citation">
+        <div className="citation" id="cr-14">
 
           <p className="citation-num">[14]</p>
 
@@ -180,7 +180,7 @@ function CitedResources() {
           </div>
         </div>
 
-        <div className="citation">
+        <div className="citation" id="cr-15">
 
           <p className="citation-num">[15]</p>
 
@@ -191,7 +191,7 @@ function CitedResources() {
           </div>
         </div>
 
-        <div className="citation">
+        <div className="citation" id="cr-16">
 
           <p className="citation-num">[16]</p>
 
@@ -205,7 +205,7 @@ function CitedResources() {
           </div>
         </div>
 
-        <div className="citation">
+        <div className="citation" id="cr-17">
 
           <p className="citation-num">[17]</p>
 
@@ -217,7 +217,7 @@ function CitedResources() {
           </div>
         </div>
 
-        <div className="citation">
+        <div className="citation" id="cr-18">
 
           <p className="citation-num">[18]</p>
 
@@ -229,7 +229,7 @@ function CitedResources() {
           </div>
         </div>
 
-        <div className="citation">
+        <div className="citation" id="cr-19">
 
           <p className="citation-num">[19]</p>
 
@@ -241,7 +241,7 @@ function CitedResources() {
           </div>
         </div>
 
-        <div className="citation">
+        <div className="citation" id="cr-20">
 
           <p className="citation-num">[20]</p>
 
@@ -253,7 +253,7 @@ function CitedResources() {
           </div>
         </div>
 
-        <div className="citation">
+        <div className="citation" id="cr-21">
 
           <p className="citation-num">[21]</p>
 
@@ -265,7 +265,7 @@ function CitedResources() {
           </div>
         </div>
 
-        <div className="citation">
+        <div className="citation" id="cr-22">
 
           <p className="citation-num">[22]</p>
 
@@ -277,7 +277,7 @@ function CitedResources() {
           </div>
         </div>
 
-        <div className="citation">
+        <div className="citation" id="cr-23">
 
           <p className="citation-num">[23]</p>
 
@@ -288,7 +288,7 @@ function CitedResources() {
           </div>
         </div>
 
-        <div className="citation">
+        <div className="citation" id="cr-24">
 
           <p className="citation-num">[24]</p>
 
@@ -300,7 +300,7 @@ function CitedResources() {
           </div>
         </div>
 
-        <div className="citation">
+        <div className="citation" id="cr-25">
 
           <p className="citation-num">[25]</p>
 
@@ -311,7 +311,7 @@ function CitedResources() {
           </div>
         </div>
 
-        <div className="citation">
+        <div className="citation" id="cr-26">
 
           <p className="citation-num">[26]</p>
 
@@ -322,7 +322,7 @@ function CitedResources() {
           </div>
         </div>
 
-        <div className="citation">
+        <div className="citation" id="cr-27">
 
           <p className="citation-num">[27]</p>
 
@@ -333,7 +333,7 @@ function CitedResources() {
           </div>
         </div>
 
-        <div className="citation">
+        <div className="citation" id="cr-28">
 
           <p className="citation-num">[28]</p>
 
@@ -345,7 +345,7 @@ function CitedResources() {
           </div>
         </div>
 
-        <div className="citation">
+        <div className="citation" id="cr-29">
 
           <p className="citation-num">[29]</p>
 
@@ -420,7 +420,7 @@ function CitedResources() {
 
         </div>
       </div>
-    </main>
+    </div>
   )
 }
 

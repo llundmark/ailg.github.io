@@ -8,7 +8,7 @@ function Introduction() {
   const navigate = useNavigate()
 
   return (
-    <div>
+    <div className="page-canvas">
       <div className="page-content">
       <h1>Introduction</h1>
       <p>Hello, and welcome to this guide on Artificial Intelligence (AI) and Ethics.

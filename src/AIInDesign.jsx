@@ -7,7 +7,7 @@ function AIInDesign() {
   const navigate = useNavigate()
 
   return (
-    <div>
+    <div className="page-canvas">
       <div className="page-content">
         <h1>AI in Design</h1>
         <p>As technology advances, it opens fresh opportunities. It's human nature to experiment and innovate, especially when we find our limitations suddenly lifted. Our understanding of electricity has provided us with light and heat (among many other things) without us needing to tend to an open flame. This simple thing has opened up so many opportunities for us, even if it has indirectly contributed to many late nights.</p>

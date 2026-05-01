@@ -1,13 +1,10 @@
 .landing-page {
-  width: 100%;
-  min-height: 100vh;
   display: flex;
   background: #f3f8fa;
 }
 
 .sidebar {
   width: 475px;
-  min-height: 1080px;
   background: #fbfbfb;
   border-radius: 0 0 30px 30px;
   box-shadow:
@@ -17,7 +14,7 @@
   position: sticky;
   top: 0;
   align-self: flex-start;
-  height: 100vh;
+  height: auto;
   overflow-y: auto;
 }
 
@@ -28,15 +25,27 @@
 }
 
 .ailg-logo {
-  width: 218px;
-  height: 218px;
-  margin: 48px auto 0;
+  width: 140px;
+  height: 140px;
+  margin: 30px auto 0;
+  border: 0;
+  background-color: transparent;
+}
+
+.ailg-logo:hover{
+  cursor: pointer;
+  fill:#56beed;
+}
+
+.ailg-logo img {
+  width:100%;
+  object-fit: cover;
 }
 
 .sidebar-title {
-  margin: 58px 0 25px;
+  margin: 40px 0 20px;
   padding-inline: 20px;
-  font-size: 34px;
+  font-size: 30px;
   font-weight: 600;
   line-height: 1;
   color: #333;
@@ -63,13 +72,13 @@
 
 .accordion-trigger {
   width: 100%;
-  height: 100px;
+  min-height: 60px;
   padding: 0 20px;
   text-align: left;
   border: 0;
   background: #60c8f6;
   color: #222;
-  font-size: 28px;
+  font-size: 24px;
   font-weight: 700;
   line-height: 1;
   cursor: pointer;
@@ -120,7 +129,7 @@
 .submenu-link {
   display: block;
   text-decoration: none;
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 500;
   line-height: 1;
   color: #404040;
@@ -150,16 +159,6 @@
 .hero-rule {
   width: 672px;
   margin-top: 0;
-}
-
-h1 {
-  width: 1070px;
-  margin: 24px 0 22px;
-  font-size: 52px;
-  font-weight: 800;
-  line-height: 1;
-  text-align: center;
-  color: #000;
 }
 
 .hero-subtitle {

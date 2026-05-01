@@ -20,41 +20,22 @@
   /* position: absolute;
   left: 625px;
   top: 86px; */
-  width: 1132px;
-  height: 696px;
+  width: 100%;
+  height: auto;
   object-fit: cover;
+  margin-bottom: 5px;
 }
 
 .wia-top-credit {
   /* position: absolute;
   left: 637px;
   top: 791px; */
-  width: 1120px;
   margin: 0;
   text-align: right;
   font-size: 20px;
-  line-height: 1.7;
+  line-height: 1;
 }
 
-.wia-h1 {
-  /* position: absolute;
-  left: 635px;
-  top: 834px; */
-  margin: 0;
-  font-size: 52px;
-  font-weight: 800;
-  line-height: 1;
-  color: #111;
-}
-
-.wia-h2 {
-  /* position: absolute; */
-  margin: 0;
-  font-size: 40px;
-  font-weight: 700;
-  line-height: 1;
-  color: #222;
-}
 
 .wia-p {
   /* position: absolute; */
@@ -86,49 +67,6 @@
   text-decoration: none;
 }
 
-.wia-paragraph-1 {
-  /* left: 635px;
-  top: 1202px; */
-}
-
-.wia-intro-label-2 {
-  /* left: 637px;
-  top: 1413px; */
-}
-
-.wia-quote-2 {
-  /* left: 637px;
-  top: 1456px; */
-}
-
-.wia-source-2 {
-  /* top: 1539px; */
-}
-
-.wia-paragraph-2 {
-  /* left: 635px;
-  top: 1656px; */
-}
-
-.wia-paragraph-3 {
-  /* left: 635px;
-  top: 1840px; */
-}
-
-.wia-kinds-intro {
-  /* left: 637px;
-  top: 2201px; */
-}
-
-.wia-bullet {
-  /* left: 637px; */
-}
-
-
-.wia-visual-copy {
-  /* left: 639px;
-  top: 3200px; */
-}
 
 .wia-explainer-image {
   /* position: absolute;
@@ -150,16 +88,6 @@
   line-height: 34px;
   font-style: italic;
   color: #000;
-}
-
-.wia-important-copy-1 {
-  /* left: 639px;
-  top: 4461px; */
-}
-
-.wia-important-copy-2 {
- /*  left: 639px;
-  top: 4562px; */
 }
 
 .wia-important-copy-2 a {

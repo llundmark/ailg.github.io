@@ -1,15 +1,28 @@
-news-article{
+.news-article{
     border-bottom: 3px solid #0691cb;
     width: 100%;
     padding: 10px;
 }
 
-news-grid{
+.news-grid{
     display:flex;
 }
 
-news-thumb{
+.news-thumb{
     width: 20%;
     border-radius: 30px;
     object-fit: cover;
+    aspect-ratio: 1/1;
+}
+
+.news-list{
+    margin: 20px 0 60px 0;
+}
+
+.news-link{
+    text-decoration: none;
+}
+
+.news-text{
+    margin-left: 20px;
 }

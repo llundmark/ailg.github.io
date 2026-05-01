@@ -7,7 +7,7 @@ function EssentialPrinciples() {
   const navigate = useNavigate()
 
   return (
-    <div>
+    <div className="page-canvas">
       <div className="page-content">
         <h1>Essential Principles</h1>
         <p>We find ourselves in an interesting time in regards to technology and our social structures. As of this writing (Spring 2026), Generative AI is still new and mysterious to many. Much of our exposure to it is limited to news articles and some weird-looking images or videos on social media. At the same time, there seems to be an urgent, almost frantic, response to it from industry leaders and venture capitalists. Bill Gates, co-founder of Microsoft, has said that AI is “as fundamental as the creation of the microprocessor, the personal computer, the Internet, and the mobile phone.”[8]

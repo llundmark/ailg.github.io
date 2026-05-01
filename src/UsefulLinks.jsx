@@ -7,7 +7,7 @@ function UsefulLinks() {
   const navigate = useNavigate()
 
   return (
-    <div>
+    <div className="page-canvas">
       <div className="page-content">
         <h1>Useful Links</h1>
         <p>Here I have compiled links to interesting online resources related to AI. These are videos, articles, tutorials and other such things that I found helpful when researching for this project but I may not have directly referenced them. </p>

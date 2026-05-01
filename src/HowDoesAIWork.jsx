@@ -10,7 +10,7 @@ function HowDoesAIWork() {
   const navigate = useNavigate()
 
   return (
-    <div>
+    <div className="page-canvas">
       <div className="page-content">
         <h1>How Does AI Work?</h1>
         <p>This is a simple question, but it has a fairly complicated answer. 
@@ -37,8 +37,8 @@ function HowDoesAIWork() {
         <p>The brain constantly receives signals from the body - what we see, hear and feel among other things. The brain also sends signals, reacting to what our body tells it. Each time signals are sent or received, neurons are activated in the brain. The connections that these neurons maintain will change the more they are activated. This is part of the human process of learning.
         </p>
         <p>
-        For instance, when we perform a physical action like throwing a ball or practicing a musical instrument, there is a set of neurons that are activated. The connections in that set of neurons become stronger the more we perform that action. As a result, we become faster and more 'comfortable' with those actions.[23] </p>
-
+        For instance, when we perform a physical action like throwing a ball or practicing a musical instrument, there is a set of neurons that are activated. The connections in that set of neurons become stronger the more we perform that action. As a result, we become faster and more 'comfortable' with those actions.<button className="annotation" onClick={() => navigate('/cited-resources', { state: { id: 'cr-23' } })}>[23]</button> </p>
+        {/* { state: { id: 123 } } */}
         <div className="image-wrapper">
           <img src={diagram} alt="neuron vs neural network"/>
         </div>
@@ -46,7 +46,10 @@ function HowDoesAIWork() {
 
         <p>In the case of Artificial Intelligence, the computer programmer creates a data structure that imitates how a brain functions. \nThe neurons become data objects called nodes with their own sets of functions and connections. These nodes receive input in the form of images, text or other data, much like how neurons receive signals from the body. The nodes then work together to form an output. In the body, this would be a signal from the brain to the body's muscles or organs but for AI this can be text, an image or any other form of data.</p>
 
-        <p>A Quick Disclaimer: This is all a massive simplification and only meant to give the reader a way to visualize how AI works. Both the brain and AI have a lot more involved in how they function and I highly recommend learning more about them. It's fascinating, I promise.[24][25][26][27]</p>
+        <p>A Quick Disclaimer: This is all a massive simplification and only meant to give the reader a way to visualize how AI works. Both the brain and AI have a lot more involved in how they function and I highly recommend learning more about them. It's fascinating, I promise.<button className="annotation" onClick={() => navigate('/cited-resources', { state: { id: 'cr-24' } })}>[24]</button>
+        <button className="annotation" onClick={() => navigate('/cited-resources', { state: { id: 'cr-25' } })}>[25]</button>
+        <button className="annotation" onClick={() => navigate('/cited-resources', { state: { id: 'cr-26' } })}>[26]</button>
+        <button className="annotation" onClick={() => navigate('/cited-resources', { state: { id: 'cr-27' } })}>[27]</button></p>
 
         <h2>Data. <em>Lots</em> of Data</h2>
 
@@ -54,7 +57,7 @@ function HowDoesAIWork() {
         Training an AI is a little bit like teaching a dog to do a trick. Each time the AI receives data input it will create an output. The person doing the training will then give the AI positive or negative feedback based on the output. This would be like telling a dog to “sit”, and giving it a treat when it sits down. The AI will adjust its behavior each time it receives feedback so that it gets positive results more often.</p>
 
         <p>
-        One term you may hear when learning about AI is Large Language Model (LLM for short). These programs deal mainly with text input and interpret commands, or prompts, given by the user. ChatGPT, developed by OpenAI, is one such AI program that uses an LLM. In training ChatGPT, OpenAI had it analyze roughly 570 gigabytes of text data - which amounts to about 300 billion words.[29]</p>
+        One term you may hear when learning about AI is Large Language Model (LLM for short). These programs deal mainly with text input and interpret commands, or prompts, given by the user. ChatGPT, developed by OpenAI, is one such AI program that uses an LLM. In training ChatGPT, OpenAI had it analyze roughly 570 gigabytes of text data - which amounts to about 300 billion words.<button className="annotation" onClick={() => navigate('/cited-resources', { state: { id: 'cr-29' } })}>[29]</button></p>
 
         <div className="image-wrapper">
           <img src={cartoon2} alt="panda with robot cartoon"/>
@@ -62,9 +65,9 @@ function HowDoesAIWork() {
 
         <h3>Something to Think About</h3>
 
-        <p>As you learn more about AI, you might find a bit of a disconnect between the way it’s presented in the media and the way it actually is. You might think, “If AI is so smart and useful, why does it need so much data? Why does it need thousands of pictures of a tree to know what a tree is?”\n
-        The thing is, while AI technology will continue to develop in the coming years, right now it just isn’t all that smart. Training an AI takes a massive amount of trial and error\n
-        BloombergGPT, another LLM, took 1.3 million hours of graphics processing unit time to train. Furthermore, the result of this is not a program that understands the task it is given.[28] 
+        <p>As you learn more about AI, you might find a bit of a disconnect between the way it's presented in the media and the way it actually is. You might think, “If AI is so smart and useful, why does it need so much data? Why does it need thousands of pictures of a tree to know what a tree is?”<br/>
+        The thing is, while AI technology will continue to develop in the coming years, right now it just isn't all that smart. Training an AI takes a massive amount of trial and error\n
+        BloombergGPT, another LLM, took 1.3 million hours of graphics processing unit time to train. Furthermore, the result of this is not a program that understands the task it is given.<button className="annotation" onClick={() => navigate('/cited-resources', { state: { id: 'cr-28' } })}>[28]</button> 
         As many sources will tell you, AI is built to find patterns in data and make predictions. The more data it is given, the more successful it is at making those predictions. If you tell it to “Draw a picture of a tree”, it can only make a guess at what you want and draw based on data it has been trained on.</p>
 
         <div className="pageNav">

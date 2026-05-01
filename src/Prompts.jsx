@@ -7,7 +7,7 @@ function Prompts() {
   const navigate = useNavigate()
 
   return (
-    <div>
+    <div className="page-canvas">
       <div className="page-content">
         <h1>Prompts</h1>
         <p>A prompt is the instruction, question, or discussion topic you type into a generative AI tool to get a response. Most AI tools will feature a text box where the user basically explains to the AI what they want, much like how you would interact with an internet search engine. <br/>

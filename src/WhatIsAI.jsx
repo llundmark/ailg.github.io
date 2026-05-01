@@ -18,7 +18,7 @@ function WhatIsAI() {
           Original: <em>Red vs. Blue</em> season 1 episode 13
         </p>
 
-        <h1 className="wia-h1">What is Artificial Intelligence (AI)?</h1>
+        <h1>What is Artificial Intelligence (AI)?</h1>
 
         <p>According to the Encyclopedia Britannica:</p>
         <p className="wia-p wia-quote">
@@ -82,7 +82,7 @@ function WhatIsAI() {
         <p><strong>Videogames</strong> - Games will often have characters programmed to behave depending on how the user plays.</p>
         <p><strong>Content-Generating Applications</strong> - Software that generates images, videos and other content based on a prompt from the user. This is commonly known as Generative AI. These are generally what people talk about when it comes to AI nowadays and they are the main reason for this literacy guide!</p>
 
-        <h2 className="wia-h2 wia-h2-visual">A Brief Visual Definition</h2>
+        <h2 className="wia-h2-visual">A Brief Visual Definition</h2>
         <p className="wia-p wia-visual-copy">
           There are a lot of different types of AI and you will likely find a lot of interrelated
           terms. Here is a handy diagram for where Generative AI is located in all of this.
