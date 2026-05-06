@@ -206,6 +206,7 @@ li{
 
 .annotation {
   color:#006fb2;
+  font-weight: 700;
   cursor: pointer;
   display:inline;
   border: 0;
