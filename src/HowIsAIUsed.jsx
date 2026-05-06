@@ -34,7 +34,7 @@ function HowIsAIUsed() {
           </li>
         </ul>
 
-        <p>(Bear in mind these are recommendations for image generation)[4]</p>
+        <p>(Bear in mind these are recommendations for image generation)<button className="annotation" onClick={() => navigate('/cited-resources', { state:{ id:'cr-4' } })}>[4]</button></p>
 
         <h2>The Graphical User Interface (GUI)</h2>
 

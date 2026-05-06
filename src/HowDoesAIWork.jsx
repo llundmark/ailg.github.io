@@ -25,7 +25,7 @@ function HowDoesAIWork() {
         <p>As mentioned on the previous page, AI has been applied to many different technologies. Exactly how it's being used will change depending on the intended result, whether that is an AI assistant taking voice commands or an application that generates images based on a prompt.
         One thing they all have in common is they are programmed to analyze sets of data and find patterns in them. For this to work, computer programmers draw inspiration from humans themselves.</p>
 
-        <p>Most modern AI programs are based on the human brain.\n
+        <p>Most modern AI programs are based on the human brain.<br/>
         Granted, the brain is something that scientists are still studying so we can't say we have the know-how for a perfect recreation. We can do a basic imitation though, which brings us to something called Neural Networks.</p>
 
         <p>Without getting too heavily into computer programming (or neuroscience for that matter), let's try looking at how a Neural Network functions.</p>
@@ -44,7 +44,7 @@ function HowDoesAIWork() {
         </div>
         <p>Source: A Gentle Introduction to Neural Networks by Jacob Joseph, CleverTap</p>
 
-        <p>In the case of Artificial Intelligence, the computer programmer creates a data structure that imitates how a brain functions. \nThe neurons become data objects called nodes with their own sets of functions and connections. These nodes receive input in the form of images, text or other data, much like how neurons receive signals from the body. The nodes then work together to form an output. In the body, this would be a signal from the brain to the body's muscles or organs but for AI this can be text, an image or any other form of data.</p>
+        <p>In the case of Artificial Intelligence, the computer programmer creates a data structure that imitates how a brain functions. <br/>The neurons become data objects called nodes with their own sets of functions and connections. These nodes receive input in the form of images, text or other data, much like how neurons receive signals from the body. The nodes then work together to form an output. In the body, this would be a signal from the brain to the body's muscles or organs but for AI this can be text, an image or any other form of data.</p>
 
         <p>A Quick Disclaimer: This is all a massive simplification and only meant to give the reader a way to visualize how AI works. Both the brain and AI have a lot more involved in how they function and I highly recommend learning more about them. It's fascinating, I promise.<button className="annotation" onClick={() => navigate('/cited-resources', { state: { id: 'cr-24' } })}>[24]</button>
         <button className="annotation" onClick={() => navigate('/cited-resources', { state: { id: 'cr-25' } })}>[25]</button>
@@ -53,7 +53,7 @@ function HowDoesAIWork() {
 
         <h2>Data. <em>Lots</em> of Data</h2>
 
-        <p>Each AI program is created with a particular function in mind. There are many potential uses for AI, like creating content or finding trends within large amounts of data. In any case, the program needs to be trained to perform that function.\n
+        <p>Each AI program is created with a particular function in mind. There are many potential uses for AI, like creating content or finding trends within large amounts of data. In any case, the program needs to be trained to perform that function.<br/>
         Training an AI is a little bit like teaching a dog to do a trick. Each time the AI receives data input it will create an output. The person doing the training will then give the AI positive or negative feedback based on the output. This would be like telling a dog to “sit”, and giving it a treat when it sits down. The AI will adjust its behavior each time it receives feedback so that it gets positive results more often.</p>
 
         <p>
@@ -66,7 +66,7 @@ function HowDoesAIWork() {
         <h3>Something to Think About</h3>
 
         <p>As you learn more about AI, you might find a bit of a disconnect between the way it's presented in the media and the way it actually is. You might think, “If AI is so smart and useful, why does it need so much data? Why does it need thousands of pictures of a tree to know what a tree is?”<br/>
-        The thing is, while AI technology will continue to develop in the coming years, right now it just isn't all that smart. Training an AI takes a massive amount of trial and error\n
+        The thing is, while AI technology will continue to develop in the coming years, right now it just isn't all that smart. Training an AI takes a massive amount of trial and error.<br/>
         BloombergGPT, another LLM, took 1.3 million hours of graphics processing unit time to train. Furthermore, the result of this is not a program that understands the task it is given.<button className="annotation" onClick={() => navigate('/cited-resources', { state: { id: 'cr-28' } })}>[28]</button> 
         As many sources will tell you, AI is built to find patterns in data and make predictions. The more data it is given, the more successful it is at making those predictions. If you tell it to “Draw a picture of a tree”, it can only make a guess at what you want and draw based on data it has been trained on.</p>
 

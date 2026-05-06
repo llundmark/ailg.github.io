@@ -14,7 +14,7 @@ function Introduction() {
       <p>Hello, and welcome to this guide on Artificial Intelligence (AI) and Ethics.
       This is meant to be used as a primer for individuals interested in AI and its current technologies. Specifically, the content here is geared towards designers and professionals indirectly involved with design that want to explore or at least understand the use of AI in design. The intent is not to condone or condemn the use of this technology, but to promote a greater public understanding of AI, it's capabilities and potential problems. With this, we can hopefully diminish the harmful effects of those problems on our society and find a place for AI that is constructive and benign.</p>
 
-      <div><img className="img-right" src={introductionImage} alt="panda" /></div>
+      <div className="img-right"><img src={introductionImage} alt="panda" /></div>
 
       <h2>A Bit of Backstory</h2>
       <p>One of the most widely discussed subjects in the U.S. in 2025 was the rapid integration of Artificial Intelligence. <a href="https://trends.withgoogle.com/year-in-search/2025/" target="_blank" rel="noreferrer">According to Google</a>, Deepseek (a generative AI platform) was the fifth most searched topic of the year in the U.S. and sixth most worldwide after topics like soccer tournaments and the new Pope. We've seen AI integrated into software and services like Photoshop and Figma as well as across the internet and social media.</p>

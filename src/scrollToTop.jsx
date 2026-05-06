@@ -7,19 +7,20 @@ import { useLocation } from "react-router-dom";
 
 export default function ScrollToTop() {
   const pathname = useLocation();
-let sectionDest = pathname.state?.id;
-let elementFromID  = document.getElementById(sectionDest);;
-console.log(sectionDest);
+//let sectionDest = pathname.state?.id;
+//let elementFromID  = document.getElementById(sectionDest);
+//console.log(sectionDest);
+//console.log(elementFromID);
 
-if(elementFromID){
+/* if(elementFromID){
     console.log("found element")
     elementFromID.scrollIntoView({ behavior: 'smooth', block: 'start' });
 }
-else{
+else{ */
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [pathname]);
-}
+/*}*/
 
   return null;
 }

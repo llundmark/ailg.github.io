@@ -11,7 +11,7 @@ function Prompts() {
       <div className="page-content">
         <h1>Prompts</h1>
         <p>A prompt is the instruction, question, or discussion topic you type into a generative AI tool to get a response. Most AI tools will feature a text box where the user basically explains to the AI what they want, much like how you would interact with an internet search engine. <br/>
-        Prompts can be short or detailed depending on the level of complexity you need in your end result; however, being clear and specific in your prompt writing will lead to more relevant responses from your AI tools.[6]</p>
+        Prompts can be short or detailed depending on the level of complexity you need in your end result; however, being clear and specific in your prompt writing will lead to more relevant responses from your AI tools.<button className="annotation" onClick={() => navigate('/cited-resources', { state: { id: 'cr-6' } })}>[6]</button></p>
 
         <p>Writing prompts that result in quality output from an AI has its own method to it. Each AI tool will respond to a prompt a bit differently, so it's important to spend time familiarizing yourself with the tool you plan to use and all its quirks. Outside of that, there are some elements that you would typically want to include in a prompt to make it as effective as possible.</p>
 
@@ -23,14 +23,14 @@ function Prompts() {
             <strong>Task</strong>: The task is a summary of what you want the prompt to do. This generally describes whatever output you need from the AI. For instance, this can be a study guide, a background image or any kind of data the AI is trained to generate.
           </li>
           <li>
-            <strong>Requirements</strong>: AI models will make assumptions for any information they don't have in the prompt. Consider it like communicating your needs to another person, except they don’t have any common sense. Eliminating any wrong assumptions the AI might make requires writing a clear and descriptive prompt, often with more information than you think is necessary. It's helpful to define what the output should look like and list any conditions that might affect the output. 
+            <strong>Requirements</strong>: AI models will make assumptions for any information they don't have in the prompt. Consider it like communicating your needs to another person, except they don't have any common sense. Eliminating any wrong assumptions the AI might make requires writing a clear and descriptive prompt, often with more information than you think is necessary. It's helpful to define what the output should look like and list any conditions that might affect the output. 
           </li>
           <li>
             <strong>Instructions</strong>: Instructions will tell the AI how to complete the task. Instructions can include examples of how you want the AI to do the  work, and it can include steps the AI can follow or any other  information you think the AI needs to have.
           </li>
         </ul>
 
-        <h3>An Example Prompt:[7]</h3>
+        <h3>An Example Prompt:<button className="annotation" onClick={() => navigate('/cited-resources', { state: { id: 'cr-7' } })}>[7]</button></h3>
 
         <ul>
           <li>

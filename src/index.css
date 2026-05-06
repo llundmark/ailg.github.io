@@ -105,6 +105,19 @@ li{
   align-items:right;
 }
 
+.image-wrapper{
+  display:flex;
+  margin: 0 auto;
+  max-width: 450px;
+  height: auto;
+}
+
+.image-wrapper img{
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
 .page-content{
   margin: 0 auto;
   padding: 0 30;
@@ -171,7 +184,7 @@ li{
 
 .wia-nav {
   cursor: pointer;
-  display: block;
+  display: flex;
   color: #006fb2;
   max-width: 50%;
   width:fit-content;
@@ -188,6 +201,7 @@ li{
   font-weight: 700;
   max-width: 100%;
   margin: 0 10px;
+  white-space: nowrap;
 }
 
 .annotation {

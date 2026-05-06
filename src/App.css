@@ -141,7 +141,6 @@
 
 .hero-content {
   flex: 1;
-  min-height: 1080px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -151,7 +150,7 @@
 .hero-illustration {
   width: 449px;
   height: 211px;
-  margin-top: 186px;
+  margin-top: 126px;
   object-fit: cover;
   border-bottom: 3px solid black;
 }

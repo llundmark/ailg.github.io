@@ -10,7 +10,7 @@ function EssentialPrinciples() {
     <div className="page-canvas">
       <div className="page-content">
         <h1>Essential Principles</h1>
-        <p>We find ourselves in an interesting time in regards to technology and our social structures. As of this writing (Spring 2026), Generative AI is still new and mysterious to many. Much of our exposure to it is limited to news articles and some weird-looking images or videos on social media. At the same time, there seems to be an urgent, almost frantic, response to it from industry leaders and venture capitalists. Bill Gates, co-founder of Microsoft, has said that AI is “as fundamental as the creation of the microprocessor, the personal computer, the Internet, and the mobile phone.”[8]
+        <p>We find ourselves in an interesting time in regards to technology and our social structures. As of this writing (Spring 2026), Generative AI is still new and mysterious to many. Much of our exposure to it is limited to news articles and some weird-looking images or videos on social media. At the same time, there seems to be an urgent, almost frantic, response to it from industry leaders and venture capitalists. Bill Gates, co-founder of Microsoft, has said that AI is “as fundamental as the creation of the microprocessor, the personal computer, the Internet, and the mobile phone.”<button className="annotation" onClick={() => navigate('/cited-resources', { state:{ id:'cr-8' } })}>[8]</button>
         </p>
 
         <p>Going back to our car analogy, the automobile is an invention that had a profound impact on people around the world. It has empowered us to travel great distances at speeds that were largely impossible before. As with many things, however, this utility can be misused and can even be dangerous. Over time we have developed systems to regulate the use of automobiles - like traffic laws, the Department of Motor Vehicles, and other delightful things.</p>
@@ -19,8 +19,8 @@ function EssentialPrinciples() {
 
         <p>Ethics in the field of A.I. is a subject that has seen a great increase in attention over the past few years, much like A.I. itself. We are beginning to formalize a system for the responsible use of A.I. in business and society. Until our government engraves these practices into law it is everyone's responsibility to ensure that this technology causes as little harm as possible.</p>
 
-        <p>Organizations and academics around the world are exploring possibilities for a reliable system to regulate the use of AI. Notable groups include the U.S. Department of Defense (now called the Department of War), Northern Illinois University, and Deloitte.[10][11][12]<br/>
-        In many of their studies, some consistent themes and principles have emerged.[1]</p>
+        <p>Organizations and academics around the world are exploring possibilities for a reliable system to regulate the use of AI. Notable groups include the U.S. Department of Defense (now called the Department of War), Northern Illinois University, and Deloitte.<button className="annotation" onClick={() => navigate('/cited-resources', { state:{ id:'cr-10' } })}>[10]</button><button className="annotation" onClick={() => navigate('/cited-resources', { state:{ id:'cr-11' } })}>[11]</button><button className="annotation" onClick={() => navigate('/cited-resources', { state:{ id:'cr-12' } })}>[12]</button><br/>
+        In many of their studies, some consistent themes and principles have emerged.<button className="annotation" onClick={() => navigate('/cited-resources', { state:{ id:'cr-1' } })}>[1]</button></p>
 
         <ul>
           <li>Transparency and Understandability</li>
@@ -51,7 +51,7 @@ function EssentialPrinciples() {
 
           <p>Privacy, especially data privacy, is a common topic when dealing with software and the internet. It is just as prevalent an issue, if not more so, when dealing with A.I. systems which function by consuming vast amounts of information. Much like our interactions with social media and the internet at large, we should be careful about what information we share with AI tools. </p>
 
-          <p>On the other side of this equation, anyone training AI Models should practice an ethical handling of information. Consider the sensitivity of data when selecting and using AI applications. Exercise extreme caution with vulnerable populations and any personally identifiable information. Care and attention should also be paid to how a particular AI application stores, uses and learns from that data.[15]</p>
+          <p>On the other side of this equation, anyone training AI Models should practice an ethical handling of information. Consider the sensitivity of data when selecting and using AI applications. Exercise extreme caution with vulnerable populations and any personally identifiable information. Care and attention should also be paid to how a particular AI application stores, uses and learns from that data.<button className="annotation" onClick={() => navigate('/cited-resources', { state:{ id:'cr-15' } })}>[15]</button></p>
 
           <h2>Accountability and Responsibility</h2>
 
@@ -63,7 +63,7 @@ function EssentialPrinciples() {
 
         <p>Any utility designed to be used by human beings is incomplete without taking safety into consideration. This involves preventing harm to an individual's physical well-being as well as the psychological, social, and environmental aspects of their well-being. When developing or using AI, the safety risks encountered in a project will depend on various factors, including the algorithms and machine learning techniques employed, data sources, the project objective and problem being addressed.</p>
 
-        <p>It's considered a best practice to incorporate safety considerations related to accuracy, reliability, security, and robustness at every stage of a project's life cycle. This should involve the rigorous application of testing, validation, verification, and ongoing system safety monitoring.[1]</p>
+        <p>It's considered a best practice to incorporate safety considerations related to accuracy, reliability, security, and robustness at every stage of a project's life cycle. This should involve the rigorous application of testing, validation, verification, and ongoing system safety monitoring.<button className="annotation" onClick={() => navigate('/cited-resources', { state:{ id:'cr-1' } })}>[1]</button></p>
 
 
         <div className="pageNav">

@@ -73,11 +73,11 @@ function WhatIsAI() {
           When you think about Artificial Intelligence, what comes to mind?
           Over the past several decades, we have seen the term applied to many different
           technologies. We can get into more detail about these in a later section, but for now
-          let&apos;s look at some examples.
+          let's look at some examples.
         </p>
 
         <p><strong>Mobile Applications</strong> - Most software will provide some kind of function based on data either from a database or provided by the user.</p>
-        <p><strong>Voice-Activated Tech</strong> - AI performs much better than standard software when it comes to processing sound, vision and other forms of input. These tools will often take an example of the user&apos;s voice to calibrate its functions.</p>
+        <p><strong>Voice-Activated Tech</strong> - AI performs much better than standard software when it comes to processing sound, vision and other forms of input. These tools will often take an example of the user's voice to calibrate its functions.</p>
         <p><strong>Streaming Services and Social Media</strong> - Services like this will typically curate their content for the user based on what they typically watch or otherwise engage with.</p>
         <p><strong>Videogames</strong> - Games will often have characters programmed to behave depending on how the user plays.</p>
         <p><strong>Content-Generating Applications</strong> - Software that generates images, videos and other content based on a prompt from the user. This is commonly known as Generative AI. These are generally what people talk about when it comes to AI nowadays and they are the main reason for this literacy guide!</p>
@@ -97,33 +97,31 @@ function WhatIsAI() {
 
         <h2 className="wia-h2 wia-h2-important">The Important Thing</h2>
         <p>
-          Something that&apos;s important to recognize here is that while the examples above
+          Something that's important to recognize here is that while the examples above
           are all complicated programs, not all of them are <em>intelligent</em>.
         </p>
         <p>
-          Let&apos;s take the example of a non-player character (NPC) in a video game. The
+          Let's take the example of a non-player character (NPC) in a video game. The
           player can interact with this NPC in different ways, through actions or dialogue.
-          Each line of its dialogue has to be written by the game&apos;s developer. It might have
+          Each line of its dialogue has to be written by the game's developer. It might have
           thousands of lines of text, but if the player interacts with it enough it will eventually
-          run out of lines or start repeating itself. Some games, like{' '}
-          <a href="https://undertale.com/about/" target="_blank" rel="noreferrer">Undertale</a>,
-          can be very creative with this.
+          run out of lines or start repeating itself. Some games, like <a href="https://undertale.com/about/" target="_blank" rel="noreferrer">Undertale</a>, can be very creative with this.
         </p>
         <p>
           The point is, no matter who is playing the game or how many times they play it,
-          that NPC won&apos;t ever come up with anything new to say. The game&apos;s developer
-          would have to add more lines into the character&apos;s dialogue.
+          that NPC won't ever come up with anything new to say. The game's developer
+          would have to add more lines into the character's dialogue.
           (Again, some developers can be really creative with this but you know what I
           mean. They <em>could</em> program the NPC to say random gibberish but that would kind
           of defeat the purpose.)
         </p>
         <p>
           In order for us to say that NPC is intelligent, it would have to adapt to the
-          player&apos;s behavior in a way that the game&apos;s developer did <em>not</em> explicitly
-          instruct. Some way that isn&apos;t just a glitch but an appropriate response to new data.
+          player's behavior in a way that the game's developer did <em>not</em> explicitly
+          instruct. Some way that isn't just a glitch but an appropriate response to new data.
         </p>
         <p>
-          <strong>How could we make that happen?</strong> Well that&apos;s where things get complicated.
+          <strong>How could we make that happen?</strong> Well that's where things get complicated.
         </p>
         <div className="pageNav">
 
