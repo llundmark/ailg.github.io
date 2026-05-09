@@ -16,7 +16,7 @@ function Training() {
 
         <h3>Choosing a Base Model</h3>
 
-        <p>While most Base Models are made to be general-purpose, they still may be better suited to particular tasks because of their architecture.<sup>[L2]</sup></p>
+        <p>While most Base Models are made to be general-purpose, they still may be better suited to particular tasks because of their architecture.<button className="annotation" onClick={() => navigate('/useful-links', { state:{ id:'ul-2' } })}>[L2]</button></p>
 
         <p>Here are some examples of Base Models. There are several others, but these are Open Source and therefore free to access. Most of these can be found on internet repositories like Huggingface.</p>
 

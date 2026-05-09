@@ -14,7 +14,7 @@ function AIOutsideDesign() {
 
         <h2>Healthcare</h2>
 
-        <p>One of the more promising uses of AI is in the field of medicine and healthcare. AI is capable of analyzing vast amounts of patient data to find common health needs. When given an individual’s health problems and history, the AI can then predict what the most effective treatment would be. They call this personalization of care Precision Medicine. In addition to this, AI has been used to great effect in drug development and managing clinical trials. <button className="annotation" onClick={() => navigate('/cited-resources', { state: { id: 'cr-1' } })}>[1]</button></p>
+        <p>One of the more promising uses of AI is in the field of medicine and healthcare. AI is capable of analyzing vast amounts of patient data to find common health needs. When given an individual's health problems and history, the AI can then predict what the most effective treatment would be. They call this personalization of care Precision Medicine. In addition to this, AI has been used to great effect in drug development and managing clinical trials. <button className="annotation" onClick={() => navigate('/cited-resources', { state: { id: 'cr-1' } })}>[1]</button></p>
 
         <h2>Technology</h2>
 

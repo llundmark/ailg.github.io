@@ -24,7 +24,7 @@ function HowIsAIUsed() {
 
         <ul>
           <li>
-          <strong>GPU</strong>: A high-performance GPU such as the NVIDIA GeForce RTX 30 series or RTX 40 series is recommended. VRAM (Video RAM) should be at least 8GB, preferably 16GB or more. As of this writing, most AI Models are optimized for NVIDIA GPUs, though AMD GPUs can be used. You will need an Apple Silicon to run on a Mac.[L5] 
+          <strong>GPU</strong>: A high-performance GPU such as the NVIDIA GeForce RTX 30 series or RTX 40 series is recommended. VRAM (Video RAM) should be at least 8GB, preferably 16GB or more. As of this writing, most AI Models are optimized for NVIDIA GPUs, though AMD GPUs can be used. You will need an Apple Silicon to run on a Mac.<button className="annotation" onClick={() => navigate('/useful-links', { state: { id: 'ul-5' } })}>[L5]</button> 
           </li>
           <li>
             <strong>CPU</strong>: To get the most out of your GPU, you'll need a high-performance CPU, such as Intel Core i7/i9, AMD Ryzen 7/9, etc.

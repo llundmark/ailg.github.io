@@ -369,7 +369,7 @@ if(elementFromID){
 
         <h2>Wikipedia Articles</h2>
 
-        <div className="citation">
+        <div className="citation" id="cr-w1">
 
           <p className="citation-num">[W1]</p>
 
@@ -379,7 +379,7 @@ if(elementFromID){
           </div>
         </div>
 
-        <div className="citation">
+        <div className="citation" id="cr-w2">
 
           <p className="citation-num">[W2]</p>
 
@@ -389,7 +389,7 @@ if(elementFromID){
           </div>
         </div>
 
-        <div className="citation">
+        <div className="citation" id="cr-w3">
 
           <p className="citation-num">[W3]</p>
 
@@ -399,7 +399,7 @@ if(elementFromID){
           </div>
         </div>
 
-        <div className="citation">
+        <div className="citation" id="cr-w4">
 
           <p className="citation-num">[W4]</p>
 

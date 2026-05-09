@@ -4,7 +4,17 @@ import leftChevron from './assets/chevron-left.svg'
 import { useNavigate } from 'react-router-dom'
 
 function UsefulLinks() {
-  const navigate = useNavigate()
+  const navigate = useNavigate();
+  const pathname = useLocation();
+let sectionDest = pathname.state?.id;
+let elementFromID  = document.getElementById(sectionDest);
+//console.log(sectionDest);
+//console.log(elementFromID);
+
+if(elementFromID){
+    //console.log("found element")
+    elementFromID.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
 
   return (
     <div className="page-canvas">
@@ -23,7 +33,7 @@ function UsefulLinks() {
           <p></p>
           </div>
         </div> */}
-          <div className="useful-link">
+          <div className="useful-link" id="ul-1">
           <p className="useful-header">L1.)</p>
 
           <div className="useful-text">
@@ -32,7 +42,7 @@ function UsefulLinks() {
           </div>
         </div>
 
-        <div className="useful-link">
+        <div className="useful-link" id="ul-2">
 
           <p className="useful-header">L2.)</p>
 
@@ -42,7 +52,7 @@ function UsefulLinks() {
           </div>
           </div>
 
-          <div className="useful-link">
+          <div className="useful-link" id="ul-3">
 
           <p className="useful-header">L3.)</p>
 
@@ -54,7 +64,7 @@ function UsefulLinks() {
 
           
 
-          <div className="useful-link">
+          <div className="useful-link" id="ul-4">
 
           <p className="useful-header">L4.)</p>
 
@@ -64,7 +74,7 @@ function UsefulLinks() {
           </div>
           </div>
 
-          <div className="useful-link">
+          <div className="useful-link" id="ul-5">
 
           <p className="useful-header">L5.)</p>
 
@@ -77,7 +87,7 @@ function UsefulLinks() {
 
         <h2>AI in Business</h2>
 
-        <div className="useful-link">
+        <div className="useful-link" id="ul-6">
 
           <p className="useful-header">L6.)</p>
 
@@ -89,7 +99,7 @@ function UsefulLinks() {
 
         <h2>Models & Other Resources</h2>
 
-        <div className="useful-link">
+        <div className="useful-link" id="ul-7">
 
           <p className="useful-header">L7.)</p>
 
@@ -100,7 +110,7 @@ function UsefulLinks() {
         </div>
 
         <h2>Tutorials</h2>
-        <div className="useful-link">
+        <div className="useful-link" id="ul-8">
 
           <p className="useful-header">L8.)</p>
 
@@ -110,7 +120,7 @@ function UsefulLinks() {
           </div>
           </div>
 
-          <div className="useful-link">
+          <div className="useful-link" id="ul-9">
 
           <p className="useful-header">L9.)</p>
 

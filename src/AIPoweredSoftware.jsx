@@ -14,25 +14,25 @@ function AIPoweredSoftware() {
 
         <h2>Web-Based Applications</h2>
 
-        <p><a href="https://chatgpt.com/">ChatGPT</a> - General-purpose chatbot.</p>
+        <p><a href="https://chatgpt.com/" target="_blank" rel="noopener noreferrer">ChatGPT</a> - General-purpose chatbot.</p>
 
-        <p><a href="https://claude.ai/login">Claude</a> - General-purpose chatbot. Claude Code especially good for coding.</p>
+        <p><a href="https://claude.ai/login" target="_blank" rel="noopener noreferrer">Claude</a> - General-purpose chatbot. Claude Code especially good for coding.</p>
 
-        <p><a href="https://www.midjourney.com/home">Midjourney</a> - Images.</p>
+        <p><a href="https://www.midjourney.com/home" target="_blank" rel="noopener noreferrer">Midjourney</a> - Images.</p>
 
-        <p><a href="https://leonardo.ai/">Leonardo.ai</a> - Images and Videos.</p>
+        <p><a href="https://leonardo.ai/" target="_blank" rel="noopener noreferrer">Leonardo.ai</a> - Images and Videos.</p>
 
-        <p><a href="https://openai.com/index/dall-e-3/">DALL-E</a> - Images. (Currently hosted on ChatGPT - select Images in sidebar.)</p>
+        <p><a href="https://openai.com/index/dall-e-3/" target="_blank" rel="noopener noreferrer">DALL-E</a> - Images. (Currently hosted on ChatGPT - select Images in sidebar.)</p>
 
-        <p><a href="https://copilot.microsoft.com/">Microsoft Copilot</a> - General-purpose chatbot.</p>
+        <p><a href="https://copilot.microsoft.com/" target="_blank" rel="noopener noreferrer">Microsoft Copilot</a> - General-purpose chatbot.</p>
 
         <h2>Local Applications</h2>
 
-        <p><a href="https://huggingface.co/blog/stable_diffusion">Stable Diffusion</a> - Images.</p>
+        <p><a href="https://huggingface.co/blog/stable_diffusion" target="_blank" rel="noopener noreferrer">Stable Diffusion</a> - Images.</p>
 
-        <p><a href="https://www.llama.com/">Llama</a> - Large Language Model.</p>
+        <p><a href="https://www.llama.com/" target="_blank" rel="noopener noreferrer">Llama</a> - Large Language Model.</p>
 
-        <p><a href="https://deepmind.google/models/gemma/">Google Gemma</a> - General-purpose and others.</p>
+        <p><a href="https://deepmind.google/models/gemma/" target="_blank" rel="noopener noreferrer">Google Gemma</a> - General-purpose and others.</p>
 
         <div className="pageNav">
           <div

@@ -28,13 +28,13 @@ function WhyWouldWeUseAI() {
         </div>
 
         <p>
-        If you are working on code for a website, for instance, you can use its text generation capabilities to write test functions, dummy profiles and other essential parts of the testing process.[14]</p>
+        If you are working on code for a website, for instance, you can use its text generation capabilities to write test functions, dummy profiles and other essential parts of the testing process.<button className="annotation" onClick={() => navigate('/cited-resources', { state:{ id:'cr-14' } })}>[14]</button></p>
 
         <h2>Brainstorming</h2>
 
         <p>Any designer could tell you how important the first steps of a project are. The process of planning and visualizing the final product is an essential part of design no matter what kind of project it is. Sometimes you'll have a good idea of what your product will look like from the beginning, but probably not every time. In this case it can help to rapidly create mockups for different concepts rather than the designer having to sketch them all. </p>
         
-        <p>A designer can always look to other designers' work for inspiration - on sites like Dribbble for instance. AI can be trained to recognize different design patterns and generate variations of them. [5]</p>
+        <p>A designer can always look to other designers' work for inspiration - on sites like Dribbble for instance. AI can be trained to recognize different design patterns and generate variations of them. <button className="annotation" onClick={() => navigate('/cited-resources', { state:{ id:'cr-5' } })}>[5]</button></p>
 
         <h2>Playing by the Rules</h2>
 
